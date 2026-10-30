@@ -1,5 +1,4 @@
+import { App } from '@ui/App';
 import { registerRootComponent } from 'expo';
-
-import App from './App';
 
 registerRootComponent(App);
