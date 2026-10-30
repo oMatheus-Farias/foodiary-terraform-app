@@ -21,7 +21,7 @@ export function useMeal(mealId?: string) {
       const mealStatus = query.state.data?.status;
 
       if (mealStatus && processingStatuses.includes(mealStatus)) {
-        return 4_000; // 4 seconds
+        return 8_000; // 8 seconds
       }
 
       return false;
